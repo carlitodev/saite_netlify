@@ -6,8 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-on-netfly"≈
-
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "next": "12.0.7",
