@@ -5,7 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-on-netfly"≈
+
   },
   "dependencies": {
     "next": "12.0.7",
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "next-on-netlify": "^3.0.1"
   }
 }
